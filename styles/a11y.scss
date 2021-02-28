@@ -1,0 +1,43 @@
+body {
+    
+}
+
+.fonttiny {
+    .chat-message {
+        font-size: x-small !important;
+    }
+}
+
+.fontsmall {
+    .chat-message {
+        font-size: small !important;
+    }
+}
+
+.fontlarge {
+    .chat-message {
+        font-size: large !important;
+    }
+}
+
+.fonthuge {
+    .chat-message {
+        font-size: x-large !important;
+    }
+}
+
+.fontgargantuan {
+    .chat-message {
+        font-size: xx-large !important;
+    }
+    .message-sender {
+       font-weight: bold !important;
+       font-size: large !important;
+       text-decoration: underline !important;
+    }
+    .dice-formula{
+        padding: 3% !important;
+        padding: bottom 0% !important; 
+        line-height: 30px !important;
+    }
+}

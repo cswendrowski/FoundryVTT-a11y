@@ -1,7 +1,7 @@
 {
-  "name": "module",
-  "title": "New Module",
-  "description": "",
+  "name": "a11y",
+  "title": "a11y - Accessibilty Features",
+  "description": "A third-party suite of accessibility features for Foundry VTT.",
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.0.0",
@@ -21,13 +21,12 @@
     
   ],
   "esmodules": [
-    "/scripts/module.js"
+    "/scripts/a11y.js"
   ],
   "scripts": [
-    "/scripts/lib/lib.js"
   ],
   "styles": [
-    "/styles/module.css"
+    "/css/a11y.css"
   ],
   "languages": [
     {

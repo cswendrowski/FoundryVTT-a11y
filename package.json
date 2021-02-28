@@ -1,0 +1,30 @@
+{
+  "name": "a117",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "gulp scss",
+    "compile": "gulp scss",
+    "watch": "gulp",
+    "gulp": "gulp"
+  },
+  "browserslist": [
+    "last 3 versions"
+  ],
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-modules-commonjs": "^7.12.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-wrap": "^0.15.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-declare": "^0.3.0",
+    "gulp-minify": "^3.1.0"
+  }
+}
