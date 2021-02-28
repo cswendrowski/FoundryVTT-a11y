@@ -91,5 +91,27 @@ export default class Settings {
         });
         $('body').removeClass(['fontdefault', 'fonttiny', 'fontsmall', 'fontlarge', 'fonthuge', 'fontgargantuan'])
             .addClass(game.settings.get(constants.moduleName, "fontScale"));
+
+
+        game.settings.register(constants.moduleName, "uiScale", {
+            name: "UI Scale",
+            hint: "",
+            scope: 'client',
+            config: true,
+            type: String,
+            choices: {
+                uidefault: "Default Scale",
+                uitiny: "Tiny",
+                uismall: "Small",
+                uilarge: "Large",
+                uihuge: "Huge",
+                uigargantuan: "Gargantuan"
+            },
+            onChange: (value) => {
+                $('body').removeClass(['uidefault', 'uitiny', 'uismall', 'uilarge', 'uihuge', 'uigargantuan']).addClass(value);
+            }
+        });
+        $('body').removeClass(['uidefault', 'uitiny', 'uismall', 'uilarge', 'uihuge', 'uigargantuan'])
+            .addClass(game.settings.get(constants.moduleName, "uiScale"));
     }
 }

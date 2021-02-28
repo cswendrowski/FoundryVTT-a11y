@@ -1,7 +1,4 @@
-body {
-    
-}
-
+/* FONT SCALING */
 .fonttiny {
     .chat-message {
         font-size: x-small !important;
@@ -35,9 +32,37 @@ body {
        font-size: large !important;
        text-decoration: underline !important;
     }
+    .message-content {
+        line-height: 
+    }
     .dice-formula{
         padding: 3% !important;
-        padding: bottom 0% !important; 
+        padding-bottom: 0% !important; 
         line-height: 30px !important;
     }
+    #chat-form textarea{
+       font-size: xx-large !important;
+    }
+    
+}
+
+/* UI SCALING CLASSES */
+.uitiny {
+
+}
+
+.uismall {
+
+}
+
+.uilarge {
+
+}
+
+.uihuge {
+
+}
+
+.uigargantuan {
+
 }
