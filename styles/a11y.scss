@@ -32,9 +32,6 @@
        font-size: large !important;
        text-decoration: underline !important;
     }
-    .message-content {
-        line-height: 
-    }
     .dice-formula{
         padding: 3% !important;
         padding-bottom: 0% !important; 
@@ -43,8 +40,70 @@
     #chat-form textarea{
        font-size: xx-large !important;
     }
+    .entity-name{
+        font-size: xx-large !important;
+    }
+    .folder-header {
+        font-size: x-large !important;
+        line-height: 32px !important;
+    }
+    .header-search {
+        font-size: x-large !important;
+    }
+    .header-search input{
+        height: 42px !important;
+    }
+    #chat-controls{
+        min-height:50px !important;
+    }
+    #chat-controls .roll-type-select {
+        height:36px !important;
+        font-size: xx-large !important;
+    }
+
+    .scene.view {
+        font-size:xx-large !important;
+        padding: 4px !important;
+    }
+    
+    .sidebar-tab button {
+        font-size: x-large !important;
+        height: 60px !important;
+    }
+    
+    #settings h2{
+        font-size: x-large !important;
+    }
+    
+    /* application window fonts */
+    .window-app {
+        button.tox-tbtn.tox-tbtn--select.tox-tbtn--bespoke {
+            font-size: x-large;
+            width: 135px;
+        }
+        .editor-content {
+            font-size: xx-large;
+        }
+        
+    .window-header {
+        font-size: large !important;
+    }
+    .window-content {
+        input {
+            font-size: x-large !important;
+            }
+        .sheet-tabs {
+            font-size: x-large !important;
+        }
+        .item {
+            font-size: x-large !important;
+        }
+        
+    }
+}
     
 }
+
 
 /* UI SCALING CLASSES */
 .uitiny {
